@@ -46,7 +46,7 @@ public class CalcTest {
 	}
 
 	@Test(timeout = 200)
-	public void complexCalculationsGivesExpectedResult() {
+	public void complexCalculationsGivesMockResult() {
 		when(mockComplexCalc.getResult()).thenReturn(1);
 		
 		assertThat(calc.complx(), equalTo(1));
