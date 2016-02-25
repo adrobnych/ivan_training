@@ -15,7 +15,7 @@ import calcs.Rectangle;
 
 @RunWith(PowerMockRunner.class)
 @PrepareForTest({Calc.class, Rectangle.class})
-public class CalcTestPM {
+public class CalcPMTest {
 	private Calc calc;
 	
 	@Before
